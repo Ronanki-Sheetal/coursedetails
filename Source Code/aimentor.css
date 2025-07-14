@@ -1,0 +1,136 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffe2eb;
+}
+header{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #000000;
+  color: white;
+}
+nav a {
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+}
+.nav{
+    display: flex;
+    gap: 20px;
+    font-size:large;
+}
+.nav a:hover{
+    color: rgb(238, 234, 32);
+}
+
+.course_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  padding: 16px;
+}
+
+.course_card {
+  border: 1px solid #ddd;
+  padding: 18px;
+  flex: 1 1 30%;
+  text-decoration: none;
+  color: #000;
+  background: #f0adc2;
+  transition: 0.3s;
+}
+
+.course_card:hover {
+  background:rgb(247, 152, 168);
+  transform: scale(1.05);
+}
+
+.course_detail {
+  padding: 16px;
+  font-size: large;
+}
+.contact_form{
+  padding: 16px;
+  max-width: 600px;
+}
+.contact_form label {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.contact_form input, .contact_form textarea {
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 8px;
+}
+
+.button {
+  padding: 8px 16px;
+  background: #333;
+  color: white;
+  border: none;
+}
+.button:hover{
+  color: yellow;
+}
+.feebox{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  padding: 16px;
+  flex-direction: column;
+}
+.box1 {
+  border: 1px solid #ddd;
+  padding: 18px;
+  flex: 1 1 30%;
+  text-decoration: none;
+  color: #000;
+  background: #f0adc2;
+  transition: 0.3s;
+}
+.box2{
+  border: 1px solid #ddd;
+  padding: 18px;
+  flex: 1 1 30%;
+  text-decoration: none;
+  color: #000;
+  background: #f0adc2;
+  transition: 0.3s;
+}
+.box3{
+  border: 1px solid #ddd;
+  padding: 18px;
+  flex: 1 1 30%;
+  text-decoration: none;
+  color: #000;
+  background: #f0adc2;
+  transition: 0.3s;
+}
+.box4{
+  border: 1px solid #ddd;
+  padding: 18px;
+  flex: 1 1 30%;
+  text-decoration: none;
+  color: #000;
+  background: #f0adc2;
+  transition: 0.3s;
+}
+.box5{
+  border: 1px solid #ddd;
+  padding: 18px;
+  flex: 1 1 30%;
+  text-decoration: none;
+  color: #000;
+  background: #f0adc2;
+  transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+  .course_card {
+    flex: 1 1 100%;
+  }
+}
